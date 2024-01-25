@@ -1,0 +1,10 @@
+.leftRectangle {
+  box-sizing: border-box;
+  position: absolute;
+  width: 378px;
+  height: 494px;
+  left: 100px;
+  top: 94px;
+  border: 1px solid white;
+  border-radius: 3px;
+}

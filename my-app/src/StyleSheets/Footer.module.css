@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+.container {
+  position: absolute;
+  width: 100%;
+  height: 154px;
+  left: 0px;
+  top: 935px;
+  background-color: rgba(244, 248, 248, 0.06);
+}
+
+.follow {
+  position: absolute;
+  width: 70px;
+  height: 24.27px;
+  top: 60px;
+  left: calc(50% - 70px / 2);
+  bottom: 79.73px;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.group {
+  position: absolute;
+  width: 278px;
+  height: 36.4px;
+  left: 620px;
+  top: 1065px;
+}
+
+.instagram {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: calc(50% - 30px / 2 + 43px);
+  bottom: 41px;
+}
+
+.linkdein {
+  position: absolute;
+  width: 30px;
+  height: 36.4px;
+  left: calc(50% - 30px / 2 - 39px);
+  bottom: 40.6px;
+}
+
+.twitter {
+  position: absolute;
+  width: 30px;
+  height: 36.4px;
+  bottom: 40.6px;
+}
+
+.facebook {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: calc(50% - 30px / 2 + 127px);
+  bottom: 41px;
+}
+
+.bottomPanel {
+  position: absolute;
+  width: 430px;
+  height: 24.27px;
+  left: 550px;
+  top: 1065px;
+}
+
+.contact {
+  position: absolute;
+  width: 79px;
+  height: 24.27px;
+  left: calc(50% - 79px / 2 + 44.5px);
+  bottom: 119.73px;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.advertise {
+  position: absolute;
+  width: 72px;
+  height: 24.27px;
+  left: calc(50% - 72px / 2 - 42px);
+  bottom: 119.73px;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.help{
+position: absolute;
+width: 34px;
+height: 24.27px;
+left: calc(50% - 60px / 2 + 118px);
+bottom: 119.73px;
+
+font-family: "Roboto Slab";
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+color: #ffffff;
+}
+
+
+.aboutus {
+  position: absolute;
+  width: 66px;
+  height: 24.27px;
+  left: calc(50% - 66px / 2 + 185px);
+  bottom: 119.73px;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.privacy {
+  position: absolute;
+  width: 120px;
+  height: 24.27px;
+  left: calc(50% - 120px / 2 - 152px);
+  bottom: 119.73px;
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+}
+

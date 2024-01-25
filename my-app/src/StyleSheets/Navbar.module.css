@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+
+header {
+  margin-top: -1rem;
+  height: 12vh;
+  width: 100%;
+  /* border: 2px solid white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headContent {
+  height: 55%;
+  width: 100%;
+  /* border: 2px solid white; */
+  background-color: var(--navbg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.logoCont {
+  height: 70%;
+  width: 18%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid white; */
+}
+
+.logo {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 7px;
+  background: linear-gradient(
+    270deg,
+    #9bffff 9.26%,
+    #3fffff 27.77%,
+    #6bdbd8 48.19%,
+    #2fbebb 64.52%,
+    #027498 83.12%,
+    #036 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+
+nav {
+  width: 72%;
+  height: 70%;
+  margin-left: 8rem;
+  /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+nav ul {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* column-gap: 10px; */
+  list-style: none;
+}
+
+nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+nav ul li a {
+  color: var(--inactive);
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  font-weight: 400;
+  transition: all 0.1s;
+}
+
+a:hover {
+  border-bottom: 2px solid var(--bordercolor);
+  filter: drop-shadow(0 0 40px rgb(3, 226, 255));
+}
+
+.search {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  margin: 1rem 0 0 68rem;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background-color: transparent;
+}
+
+.profile{
+  position: absolute;
+  width: 30px;
+  height: 28px;
+  margin: 0.8rem 0 0 68rem;
+  position: absolute;
+  left: 25%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background-color: transparent;
+  
+}
+
+.active {
+  color: var(--active);
+  font-weight: 500;
+}
+
+@media screen and (max-width: 430px) {
+  .headContent {
+    position: absolute;
+    width: 430px;
+    height: 63px;
+    left: 0px;
+    top: 0px;
+    background: rgba(244, 248, 248, 0.06);
+    border-radius: 0%;
+  }
+
+  .logo > img {
+    position: absolute;
+    width: 64px;
+    height: 44px;
+    left: 20px;
+    top: 10px;
+  }
+
+  .img_text {
+    display: none;
+  }
+
+  .list {
+    display: none;
+  }
+
+  /* .list{
+          
+      }
+       */
+}

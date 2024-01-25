@@ -1,0 +1,9 @@
+.eventsBox {
+  box-sizing: border-box;
+  position: absolute;
+  width: 812px;
+  height: 223px;
+  left: 100px;
+  top: 673px;
+  border: 1px solid white;
+}

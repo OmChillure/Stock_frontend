@@ -1,0 +1,50 @@
+/* Rectangle 58 */
+.rectangle1 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 400px;
+  height: 222px;
+  left: 514px;
+  top: 94px;
+  border: 1px solid white;
+}
+
+.rectangle2 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 400px;
+  height: 222px;
+  left: 995px;
+  top: 94px;
+  border: 1px solid white;
+}
+
+.rectangle3 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 400px;
+  height: 222px;
+  left: 514px;
+  top: 367px;
+  border: 1px solid white;
+}
+
+.rectangle4 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 400px;
+  height: 222px;
+  left: 995px;
+  top: 366px;
+  border: 1px solid white;
+}
+
+.rectangle5 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 400px;
+  height: 222px;
+  left: 995px;
+  top: 673px;
+  border: 1px solid white  ;
+}
